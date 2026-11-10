@@ -10,6 +10,15 @@ se resuelve con un re-render parcial en vez de re-editar a mano.
 
 ![Miniatura del episodio de ejemplo](docs/miniatura.jpg)
 
+## Tu identidad, no la del ejemplo
+
+La skill define el **proceso**, no el look. Antes de diseñar nada, Claude carga tu skill de marca si la tienes o te
+pregunta: serie, colores, tipografía, encuadres, subtítulos, sonido, tono, miniatura y personaje. Luego te ofrece
+guardar las respuestas como tu propia skill de marca a partir de `assets/plantilla-marca/`. Si no tienes
+preferencias, te propone 2 o 3 direcciones hechas con tu material para que elijas.
+
+El ejemplo de abajo es de otra persona: su paleta morada, sus fuentes y su mascota no se usan como default.
+
 ## Ejemplo real: «Mi Muse y Yo», episodio 1
 
 La skill salió de este proyecto: 25:52 min con 12 capítulos, a partir de dos clips 4K de cámara y nueve grabaciones de pantalla.
@@ -32,7 +41,7 @@ completo.
 
 ## El proceso (13 pasos, con paradas ◆ de aprobación)
 
-1. Intake: inventario con ffprobe y hojas de contacto
+1. Intake + identidad (tu marca o tus respuestas) ◆
 2. Transcribir (whisper con tiempos por palabra) y sincronizar pantalla ↔ cámara por audio
 3. Estructura de capítulos ◆
 4. Style frames ◆
@@ -50,11 +59,12 @@ completo.
 
 ```
 SKILL.md                     proceso y reglas que más pesan
-references/                  flujo de corte, teaser, personaje IA, publicación, reglas aprendidas
+references/                  identidad, flujo de corte, teaser, personaje IA, publicación, reglas aprendidas
 scripts/
   transcribir.sh             palabras con tiempo (mlx-whisper o whisper) + wav por clip
   sincronizar_pantalla.py    desfase pantalla ↔ cámara por correlación de audio
   alinear_clip_ia.py         integra un clip de Seedance con la voz original y mide la boca
+assets/plantilla-marca/      plantilla en blanco para crear tu skill de marca
 assets/pipeline-referencia/  el pipeline real del EP1 (corte, teaser, escenas, personaje) para copiar y adaptar
 docs/                        imágenes de este README
 ```

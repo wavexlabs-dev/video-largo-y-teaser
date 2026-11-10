@@ -28,7 +28,7 @@ Agregar un personaje (mascota, avatar, coanfitrión) a tomas reales a cámara si
 - Prueba a 720p: la cara regenerada se aleja más del original. Ir directo a 1080p.
 - Buscar alineación por píxeles de la cara cuando el clip cambió de color: da escalas falsas. Si la duración es igual,
   escala 1; confirmar con el movimiento de la boca.
-- Sume regenera con un tinte más oscuro/morado: aceptable, mencionarlo a la persona.
+- Sume regenera con un tinte de color un poco distinto (más oscuro en el ejemplo): mencionarlo a la persona.
 
 ## 4. Divulgación de IA en YouTube
 Un personaje animado claramente irreal junto a la persona, con su voz y palabras reales, NO requiere marcar

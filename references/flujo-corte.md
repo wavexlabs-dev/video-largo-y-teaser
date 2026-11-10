@@ -33,19 +33,19 @@ esperar aprobación. Los nombres de capítulo serán los chapters de YouTube.
 ## 6. Ensamble
 - Un `.mov` por tramo (`assemble.py cmds` → comandos ffmpeg en paralelo con `xargs -P 4`) + separadores de capítulo,
   luego `concat.txt`. Audio de cada pieza rellenado a la duración exacta de su video (apad + -t) para no derivar.
-- Encuadres de cámara 4K: medio (cuadro completo), cerrado 1.2× (no más: 1.35× se siente encima), desplazado para
-  dejar libre la columna de gráficos. Medio↔cerrado alterna en cada corte de salto; bajo un gráfico, un solo encuadre.
+- Encuadres de cámara 4K: medio (cuadro completo), cerrado y desplazado para dejar libre el lado de los gráficos.
+  Cuánto zoom acepta y de qué lado van los gráficos lo dice la marca de la persona (en el ejemplo: 1.2× máximo). Medio↔cerrado alterna en cada corte de salto; bajo un gráfico, un solo encuadre.
 - Toda pieza con `setsar=1`, `format=yuv420p` y los mismos metadatos de color: si un clip trae otro SAR o espacio de
   color, el concat demuxer se detiene en silencio a la mitad (el video "dura" la mitad). Verificar duración final.
 
 ## 7. Gráficos
-Escenas en código (skill `estudio-video-codigo`), cada evento anclado a una frase (`overlays.py` → `overlays.json`),
-render con alfa ProRes 4444 (`render.ts --alpha --shot <id>`), compuesto con ffmpeg. Píldora de capítulo que se
-sostiene todo el capítulo; separadores sin fundido a negro; rótulos solo con datos de `facts.json` con fuente.
+Escenas en código (skill `estudio-video-codigo`) con los tokens de la marca de la persona, cada evento anclado a una frase (`overlays.py` → `overlays.json`),
+render con alfa ProRes 4444 (`render.ts --alpha --shot <id>`), compuesto con ffmpeg. Las piezas (etiqueta de
+capítulo, separadores, rótulos) siguen la marca; rótulos solo con datos de `facts.json` con fuente.
 
 ## 8. Mezcla
-Voz frame-exacta + música + sfx alineados por su pico al corte. Música más baja bajo la voz (−4 dB) y más alta en
-separadores (+5 dB) con rampas; loudnorm a −15 LUFS (YouTube) y limitador sobremuestreado a −1.5 dBTP.
+Voz frame-exacta + música + sfx alineados por su pico al corte. Música más baja bajo la voz y más alta en
+separadores con rampas (valores de partida: −4 dB / +5 dB; la marca puede fijar otros); loudnorm a −14/−16 LUFS (YouTube) y limitador sobremuestreado a −1.5 dBTP.
 Medir voz sobre música por tramo. Claude no oye: la persona escucha y decide.
 
 ## 9. Revisión y versiones
