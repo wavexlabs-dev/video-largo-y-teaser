@@ -1,0 +1,514 @@
+{
+ "_nota": "Corte fino. Cada tramo: [clip, in, out]. in/out = segundos de cámara, o {p: frase, t: tiempo aprox} para cortar justo en esa frase (in = inicio de la frase, out = fin). Todo punto se ajusta al silencio más cercano. layer: A = cámara a cuadro, P = pantalla en tarjeta + burbuja.",
+ "capitulos": [
+  {
+   "n": "00",
+   "titulo": "Intro",
+   "layer": "A",
+   "tramos": [
+    [
+     "C0820",
+     1.5,
+     32.9,
+     "Hola… México principalmente"
+    ],
+    [
+     "C0820",
+     38.2,
+     104.5,
+     "datos de usuarios … Meta lo está impulsando (se quita el primer 'les voy a compartir')"
+    ],
+    [
+     "C0820",
+     112.2,
+     164.4,
+     "100M no es lo mismo que activos … no se lanza para Windows"
+    ],
+    [
+     "C0820",
+     188.2,
+     {
+      "fijo": 212.05,
+      "nota": "pausa entre 'computadora' y 'Entonces'"
+     },
+     "Windows → web … archivos locales (se quita por qué prefiere escritorio)"
+    ]
+   ]
+  },
+  {
+   "n": "01",
+   "titulo": "Primer vistazo",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0820",
+     227.5,
+     257.9,
+     "Ahora sí, en pantalla…"
+    ],
+    [
+     "C0820",
+     258.2,
+     343.0,
+     "avatar, Jelly, lentes, Cody"
+    ],
+    [
+     "C0820",
+     353.5,
+     374.2,
+     "muy intuitivo … Uno de los problemas que he visto (se quitan DOTS/Growbots)"
+    ],
+    [
+     "C0820",
+     384.1,
+     414.2,
+     "este tipo de errores … creo que me va a gustar (se quita 'video en vivo, no quería editarlo')"
+    ],
+    [
+     "C0820",
+     435.1,
+     513.8,
+     "situaciones de lanzamiento … miren, ya apareció … tamagotchi"
+    ]
+   ]
+  },
+  {
+   "n": "02",
+   "titulo": "La caja de chat",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0820",
+     513.9,
+     563.7,
+     "signo de más … modo de voz … muy práctica"
+    ],
+    [
+     "C0821",
+     0.0,
+     {
+      "fijo": 10.25,
+      "nota": "fin de 'interesantes'"
+     },
+     "una caja de texto … unos conceptos interesantes"
+    ]
+   ]
+  },
+  {
+   "n": "03",
+   "titulo": "Alma, memoria e identidad",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0821",
+     {
+      "p": "que quiero que ustedes identifiquen",
+      "t": 10
+     },
+     {
+      "p": "ha ido recopilando sobre mí",
+      "t": 112
+     },
+     "alma.md … memoria"
+    ],
+    [
+     "C0822",
+     {
+      "p": "actualmente no sé qué tenga",
+      "t": 22.5
+     },
+     {
+      "p": "nos da mucho más control de los resultados que tenemos",
+      "t": 128
+     },
+     "memoria, novia, OpenClaw"
+    ],
+    [
+     "C0822",
+     {
+      "p": "aquí tenemos la sección de aprobaciones",
+      "t": 130
+     },
+     151.9,
+     "aprobaciones"
+    ],
+    [
+     "C0822",
+     {
+      "p": "ah bueno y el tema de la identidad",
+      "t": 172
+     },
+     {
+      "p": "se va a ir actualizando todo el tiempo",
+      "t": 204
+     },
+     "identidad + los tres conceptos"
+    ]
+   ]
+  },
+  {
+   "n": "04",
+   "titulo": "Chat principal y paralelos",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0822",
+     {
+      "p": "después tenemos el chat principal",
+      "t": 205
+     },
+     {
+      "p": "no actúes de esa forma",
+      "t": 328
+     },
+     "principal vs paralelos, proactividad"
+    ],
+    [
+     "C0822",
+     {
+      "p": "eso es algo que podemos nosotros modificar todo el tiempo",
+      "t": 350
+     },
+     {
+      "p": "simplemente usarlo para trabajar",
+      "t": 363
+     },
+     "cierre (se quita la repetición de 'decirle no actúes así')"
+    ]
+   ]
+  },
+  {
+   "n": "05",
+   "titulo": "Feed",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0822",
+     {
+      "p": "del lado izquierdo tenemos otras secciones",
+      "t": 365
+     },
+     {
+      "p": "me está mostrando algunas cosas específicas",
+      "t": 405
+     },
+     "buscar, feed, Cuernavaca"
+    ],
+    [
+     "C0822",
+     {
+      "fijo": 427.2,
+      "nota": "pausa antes de 'pero'"
+     },
+     {
+      "p": "que se vuelva de más utilidad",
+      "t": 485
+     },
+     "instrucciones del feed"
+    ]
+   ]
+  },
+  {
+   "n": "06",
+   "titulo": "Ideas",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0823",
+     6.3,
+     {
+      "p": "esa idea desaparece y pasa a la siguiente",
+      "t": 118
+     },
+     "ideas, video de baile, monito"
+    ]
+   ]
+  },
+  {
+   "n": "07",
+   "titulo": "Objetivos",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0823",
+     {
+      "p": "Otra sección para mí yo creo que es una de las más",
+      "t": 118
+     },
+     {
+      "p": "limpio es de suma importancia",
+      "t": 299
+     },
+     "objetivos = tareas programadas"
+    ]
+   ]
+  },
+  {
+   "n": "08",
+   "titulo": "Biblioteca y podcast",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0823",
+     {
+      "p": "sección llamada biblioteca",
+      "t": 310
+     },
+     {
+      "p": "que se publique en un feed específico",
+      "t": 362
+     },
+     "imágenes, videos, podcast"
+    ],
+    [
+     "C0823",
+     {
+      "p": "Y como les digo, casi siempre",
+      "t": 441
+     },
+     {
+      "p": "las resuelve de esa forma",
+      "t": 466
+     },
+     "todo lo manda al chat"
+    ]
+   ]
+  },
+  {
+   "n": "09",
+   "titulo": "Espacios y archivos del sistema",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0824",
+     {
+      "p": "después ahora sí hablando de los espacios",
+      "t": 59
+     },
+     {
+      "p": "crear un espacio nuevo",
+      "t": 160
+     },
+     "espacios, reventa"
+    ],
+    [
+     "C0824",
+     {
+      "p": "qué son archivos del sistema",
+      "t": 190
+     },
+     {
+      "p": "en este overview general de Muse",
+      "t": 263
+     },
+     "archivos del sistema, heartbeat"
+    ]
+   ]
+  },
+  {
+   "n": "10",
+   "titulo": "Conectores",
+   "layer": "P",
+   "tramos": [
+    [
+     "C0824",
+     {
+      "p": "algo que sí quiero profundizar",
+      "t": 264
+     },
+     {
+      "p": "tengan superpoderes",
+      "t": 286
+     },
+     "conectores"
+    ],
+    [
+     "C0824",
+     {
+      "fijo": 307.2,
+      "nota": "pausa antes de 'entonces'"
+     },
+     {
+      "p": "qué uso le podemos dar",
+      "t": 348
+     },
+     "Liverpool, Rappi, Cinépolis (el pulpo va en el cierre)"
+    ]
+   ]
+  },
+  {
+   "n": "11",
+   "titulo": "Cierre",
+   "layer": "A",
+   "tramos": [
+    [
+     "C0827",
+     {
+      "p": "y ya para cerrar con este primer video",
+      "t": 25
+     },
+     {
+      "p": "actualmente hay dos planes superiores",
+      "t": 79.5
+     },
+     "tokens, invitaciones, plan gratuito"
+    ],
+    [
+     "C0824",
+     {
+      "p": "que es el de Power que cuesta",
+      "t": 407.5
+     },
+     {
+      "p": "3000 millones de tokens",
+      "t": 422.5
+     },
+     "planes con cifras exactas (reemplaza la toma de C0827 que decía 1300/2000)"
+    ],
+    [
+     "C0827",
+     {
+      "fijo": 95.74,
+      "nota": "después de 'eso'"
+     },
+     {
+      "p": "no tengo idea qué tareas puedo hacer con 500 millones de tokens",
+      "t": 150
+     },
+     "tokens ambiguos"
+    ],
+    [
+     "C0827",
+     {
+      "p": "y los planes superiores también puedes comprar",
+      "t": 175
+     },
+     257.98,
+     "comprar tokens, pulpo, conectores Meta, despedida"
+    ]
+   ]
+  }
+ ],
+ "quitar": [
+  [
+   "C0820",
+   {
+    "p": "no solamente para el tema de los agentes",
+    "t": 124
+   },
+   {
+    "p": "principal negocio de Meta en estos casos",
+    "t": 142
+   },
+   "analíticas y anuncios"
+  ],
+  [
+   "C0820",
+   {
+    "p": "Y bueno, esto es simplemente las cosas",
+    "t": 316
+   },
+   {
+    "p": "para poder hacer estas modificaciones",
+    "t": 342
+   },
+   "renombrar / temporada"
+  ],
+  [
+   "C0820",
+   {
+    "p": "Si tú le das aquí en editar el nombre",
+    "t": 456
+   },
+   {
+    "p": "cómo se ve, cómo se llama, etc.",
+    "t": 482
+   },
+   "renombrar desde el chat"
+  ],
+  [
+   "C0821",
+   {
+    "p": "o nos vamos al chat y le podemos decir",
+    "t": 86
+   },
+   {
+    "p": "directamente los aplique",
+    "t": 103
+   },
+   "consejos para el alma"
+  ],
+  [
+   "C0822",
+   {
+    "p": "entonces esto es algo les digo un poco técnico",
+    "t": 104
+   },
+   {
+    "p": "nos da mucho más control de los resultados que tenemos",
+    "t": 128
+   },
+   "un poco técnico / OpenClaw"
+  ],
+  [
+   "C0822",
+   {
+    "p": "aquí tenemos la caja de búsqueda",
+    "t": 226
+   },
+   {
+    "p": "tengo un chat paralelo solamente para esa tarea",
+    "t": 250
+   },
+   "ejemplo de chat paralelo"
+  ],
+  [
+   "C0823",
+   {
+    "p": "entonces vemos aquí como aquí arriba",
+    "t": 84
+   },
+   {
+    "p": "esto del podcast diario que le pedí que hiciera",
+    "t": 102
+   },
+   "progreso del baile"
+  ],
+  [
+   "C0824",
+   {
+    "p": "que si lo vemos por ejemplo en este caso",
+    "t": 86
+   },
+   {
+    "p": "diferentes cosas que he ido trabajando",
+    "t": 97
+   },
+   "plan de contenidos"
+  ],
+  [
+   "C0824",
+   {
+    "fijo": 214.7,
+    "nota": "después de 'proactividad'"
+   },
+   {
+    "p": "otras preferencias que podemos modificar",
+    "t": 236
+   },
+   "recordatorio alma/memoria"
+  ],
+  [
+   "C0827",
+   {
+    "p": "es muy difícil medirlo",
+    "t": 108
+   },
+   {
+    "p": "puede ser muy ambiguo el término",
+    "t": 120
+   },
+   "repetición tokens ambiguos"
+  ]
+ ]
+}

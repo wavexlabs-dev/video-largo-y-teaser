@@ -1,0 +1,12 @@
+{
+  "_nota": "Medido por correlación cruzada de envolventes de audio (100 Hz). screen_start_in_cam = segundo de la cámara en que empieza la grabación de pantalla (negativo = la pantalla ya iba corriendo).",
+  "pairs": [
+    { "cam": "C0820.MP4", "screen": "screen-recordings/2026-11-07 20-40-08.mov", "id": "SR1", "screen_start_in_cam": 224.20, "corr": 0.94 },
+    { "cam": "C0821.MP4", "screen": "screen-recordings/2026-11-07 20-40-08.mov", "id": "SR1", "screen_start_in_cam": -340.37, "corr": 0.92 },
+    { "cam": "C0822.MP4", "screen": "screen-recordings/2026-11-07 20-54-27.mov", "id": "SR2", "screen_start_in_cam": -2.68, "corr": 0.93 },
+    { "cam": "C0823.MP4", "screen": "screen-recordings/2026-11-07 21-11-38.mov", "id": "SR3", "screen_start_in_cam": -4.16, "corr": 0.86 },
+    { "cam": "C0824.MP4", "screen": "screen-recordings/2026-11-07 21-23-37.mov", "id": "SR4", "screen_start_in_cam": -1.92, "corr": 0.95 },
+    { "cam": null, "screen": "screen-recordings/2026-11-07 21-41-52.mov", "id": "SR5", "screen_start_in_cam": null, "corr": null, "_nota": "Sin cámara: probablemente C0825/C0826 faltantes. Voz solo desde el audio de la pantalla." },
+    { "cam": "C0827.MP4", "screen": "screen-recordings/2026-11-07 21-46-17.mov", "id": "SR6", "screen_start_in_cam": 10.44, "corr": 0.90 }
+  ]
+}
